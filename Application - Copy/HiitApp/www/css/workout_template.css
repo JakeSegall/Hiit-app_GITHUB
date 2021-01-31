@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Yusei Magic';
+    src: url('../fonts/YuseiMagic-Regular.woff2') format('woff2'),
+        url('../fonts/YuseiMagic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.title{
+    position: absolute;
+    top: 20px;
+    padding: 0px 0px 0px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    width: 100%;
+    font-family: 'Yusei Magic';
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+.description{
+    font-size: 20px;
+    padding: 10px;
+    background-color: lightgreen;
+    margin: 10px;
+    font-size: 22px;
+}
+
+.workout_image{
+    width: 100%;
+
+
+}
+
+
+.exercises{
+    padding: 10px;
+
+}
+
+.exercise_name{
+    
+}
+
+.exercise_duration{
+
+
+}
+
+.single_exercise{
+    display: grid;
+    grid-template-columns: auto 50%;
+    background-color: lightblue;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+
+}
